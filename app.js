@@ -49,7 +49,7 @@ function fetchnews()
 
         for (const i in articles) {
           const article = articles[i];
-          articlesHTML += `<div><ul>
+          articlesHTML += `<div class="box"><ul>
           <li> <img class="featured-image" src="${article.urlToImage}"/></li>
           <li> <a class="title" href="${ article.url }">${article.title}</a></li>
           <li class="author">Source: ${article.source.name}</li>
