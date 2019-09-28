@@ -1,0 +1,1 @@
+#simple page to get news from api
