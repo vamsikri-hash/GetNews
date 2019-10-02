@@ -5,3 +5,4 @@ Contains three buttons to fetch certain news
 - Sports
 - Entertainment
 - Technology
+- Science
