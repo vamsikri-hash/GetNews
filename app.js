@@ -1,13 +1,16 @@
 const sports=document.querySelector("#sports");
 const tech=document.querySelector("#tech");
 const entert=document.querySelector("#entert");
+const science=document.querySelector("#science");
 sports.addEventListener("click",getsports);
 tech.addEventListener("click",gettech);
 entert.addEventListener("click",getenter);
+science.addEventListener("click",getscience);
 const apiarry=["https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=de371855895d444a9eac47444d7a6abe",
                "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=de371855895d444a9eac47444d7a6abe",
-               "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=de371855895d444a9eac47444d7a6abe"
-              ]
+               "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=de371855895d444a9eac47444d7a6abe",
+               "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=de371855895d444a9eac47444d7a6abe"
+                ]
 var id;
 function getsports(){
 id=0;
@@ -20,6 +23,10 @@ function gettech() {
 function getenter()
 {
 	id=2;
+	fetchnews();
+}
+function getscience() {
+	id=3;
 	fetchnews();
 }
 
