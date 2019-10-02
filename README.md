@@ -1,6 +1,6 @@
 ## simple single page to get news using api in js.
 
-Contains three buttons to fetch certain news
+Contains four buttons to fetch certain news
 
 - Sports
 - Entertainment
